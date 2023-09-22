@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; /* Custom font 'Montserrat' */
+  background-color: #138808;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #FF671F;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive; /* Custom font 'Pacifico' for the heading */
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'Pacifico', cursive; /* Custom font 'Pacifico' for the heading */
+  margin-bottom: 10px;
+}
+h5 {
+  font-family: 'Pacifico', cursive; /* Custom font 'Pacifico' for the heading */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ingredient input section */
+.ingredient-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1.6px solid #0000ff;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  width: 25%;
+  padding: 9.5px;
+  border-radius: 10px;
+  border: 1.6px solid #0000ff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+/* Ingredient and recipe lists */
+.ingredient-list, .recipe-suggestions {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: cursive;
+  color: #0000ff;
+}
+
+/* Error message */
+#error {
+  color: #0000ff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Custom styling for specific elements */
+/* Example: Add your custom styles here */

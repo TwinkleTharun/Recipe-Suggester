@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Generator</h1>
+        <h5>Enter the ingredients you have, and we'll suggest recipes for you!</h5>
+    </header>
+    <main>
+        <div class="ingredient-input">
+            <input type="text" id="ingredient" placeholder="Enter an ingredient" style="font-family:cursive;color:blue;">
+            <button id="add-ingredient" style="font-family:cursive; color: blue;">Add Ingredient</button>
+        </div>
+        <div class="ingredient-list">
+            <h2 style="color:blue;">Ingredients:</h2>
+            <ul id="ingredient-list">
+                <!-- Ingredient items will be added here dynamically -->
+            </ul>
+        </div>
+        <div class="recipe-suggestions">
+            <h2 style="color:blue;">Recipe Suggestions:</h2>
+            <ul id="recipe-list">
+                <!-- Recipe suggestions will be added here dynamically -->
+            </ul>
+        </div>
+        <p id="error" class="error"></p>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
